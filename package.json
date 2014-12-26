@@ -1,0 +1,19 @@
+{
+  "name"            : "oizio-shorturl",
+  "version"         : "0.12.26",
+  "description"     : "",
+  "homepage"        : "",
+  "author"          : "Javi Jimenez Villar",
+  "dependencies": {
+    "bitly"         : "*",
+    "coffee-script" : "*",
+    "zenserver"     : "*"
+  },
+  "devDependencies" : {
+  },
+  "scripts"         : {
+    "start"       : "node zen zen",
+    "postinstall" : "bower install"
+  },
+  "engines"         : { "node": "*"}
+}

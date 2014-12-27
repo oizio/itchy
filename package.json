@@ -5,16 +5,13 @@
   "homepage"        : "",
   "author"          : "Javi Jimenez Villar",
   "dependencies": {
-    "bitly"         : "*",
     "coffee-script" : "*",
-    "shortid"       : "*",
     "zenserver"     : "*"
   },
   "devDependencies" : {
   },
   "scripts"         : {
-    "start"       : "node zen zen",
-    "postinstall" : "bower install"
+    "start"       : "node zen zen"
   },
   "engines"         : { "node": "*"}
 }
